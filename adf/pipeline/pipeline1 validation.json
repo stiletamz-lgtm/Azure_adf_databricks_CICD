@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline1 validation",
 	"properties": {
 		"activities": [
 			{
@@ -20,6 +20,16 @@
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks",
 					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Validation1",
+				"type": "Validation",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"timeout": "0.12:00:00",
+					"sleep": 10
 				}
 			}
 		],

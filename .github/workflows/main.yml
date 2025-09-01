@@ -63,7 +63,7 @@ jobs:
       - name: data-factory-deploy
         uses: Azure/data-factory-deploy-action@v1.2.0
         with:
-          resourceGroupName: myrecource
+          resourceGroupName: myresource
           dataFactoryName: adf-salaesdata2025-prod
           armTemplateFile: ARMTemplateForFactory.json
           armTemplateParametersFile: ARMTemplateParametersForFactory.json

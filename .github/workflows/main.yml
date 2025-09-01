@@ -6,6 +6,13 @@ on:
 permissions:
       id-token: write
       contents: read
+      
+task: Npm@1
+  displayName: 'npm install and build'
+  inputs:
+    workingDirectory: 'Azure_adf_databricks_CICD/adf' # Add this line
+    command: 'custom'
+    customCommand: 'install'
 
 jobs:
   build:

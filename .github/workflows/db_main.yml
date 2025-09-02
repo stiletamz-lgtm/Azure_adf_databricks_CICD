@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - db/** 
 
 jobs:
   # Deploy to Dev (optional - usually not needed if Dev is Git-linked)

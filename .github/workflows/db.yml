@@ -23,7 +23,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
       DATABRICKS_TOKEN:  ${{ secrets.DATABRICKS_TOKEN }}
-      REPO_PATH: /Workspace/Users/stiletamz@gmail.com/Azure_adf_databricks_CICD/db
+      REPO_PATH: /Workspace/Users/stiletamz@gmail.com/Azure_adf_databricks_CICD/
       # DBFS_LIB_PATH: dbfs:/path/to/libraries/
       # LATEST_WHEEL_NAME: latest_wheel_name.whl
 

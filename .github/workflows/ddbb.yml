@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 jobs:
   # Job to deploy to the first (development) Databricks workspace
   deploy-dev:

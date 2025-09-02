@@ -23,7 +23,7 @@ jobs:
 
       - name: Deploy notebooks to Dev
         run: |
-          databricks workspace import_dir ./db /Shared --overwrite
+          databricks workspace import-dir ./db /Shared --delete
 
 
   # Deploy to Prod (via pipeline only, no Git link!)

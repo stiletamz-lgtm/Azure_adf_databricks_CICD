@@ -44,5 +44,4 @@ jobs:
 
       - name: Deploy notebooks to Prod
         run: |
-          databricks --version
           databricks workspace import-dir ./db /Shared --overwrite

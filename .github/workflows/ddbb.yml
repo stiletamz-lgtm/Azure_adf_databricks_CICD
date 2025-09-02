@@ -13,7 +13,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
       DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-      REPO_PATH: /Workspace/path/to/repo/in/databricks
+      REPO_PATH: /Workspace/Users/stiletamz@gmail.com/Azure_adf_databricks_CICD/
 
     steps:
       - name: Checkout repository
